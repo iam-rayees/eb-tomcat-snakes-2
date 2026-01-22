@@ -1,0 +1,26 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: corretto11
+    commands:
+      - echo Installing dos2unix to fix line endings
+      - yum install -y dos2unix
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Fixing line endings
+      - chmod +x scripts/*.sh
+      - dos2unix build.sh
+      - dos2unix scripts/*.sh
+      - chmod +x build.sh
+      - ./build.sh
+  post_build:
+    commands:
+      - echo Build completed on `date`
+artifacts:
+  files:
+    - ROOT.war
+    - appspec.yml
+    - scripts/**/*
