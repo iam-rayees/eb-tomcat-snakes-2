@@ -3,3 +3,8 @@ os: linux
 files:
   - source: app.war
     destination: /opt/tomcat/webapps/
+permissions:
+  - object: /opt/tomcat/webapps/app.war
+    pattern: "**"
+    owner: tomcat
+    group: tomcat
