@@ -37,11 +37,11 @@
       <p>You wouldn't let a snake into your house, so why would you want one on your television screen? If you go out to see a movie, don't you want to know whether or not you can expect to be bombarded with images of awful snakes?</p>
       <div id="badsnake" parallax="true"></div>
       <!--Browse movies -->
-      <h2>Mohammed Rayees is Watching</h2>
+      <h2>Saikiran Sir is Watching</h2>
       <p>Don't get caught off guard by a snake in your evening entertainment. <i>Does it Have Snakes?</i> provides a <a href="movies">list of movies</a> that are certified snake-free. Browse our list of movies when you want to find something to watch without worrying about whether it has snakes in it or not. Great for kids, the skittish, and field mice.</p>
       <div id="badsnake2" parallax="true"></div>
       <!--Search for a movie -->
-      <h2>Going to Mantra Mall?</h2>
+      <h2>Going to GVK Mall?</h2>
       <p>When you have a specific movie in mind, you can search for it with our handy <a href="search">search page</a>. If the movie is in our database, we will tell you whether or not it has snakes in it. Not all movies have been registered, but we have a dedicated core group of users who are watching movies and noting whether or not they show snakes on screen.</p>
       <div id="badsnake3" parallax="true"></div>
       <!--Add a movie -->
