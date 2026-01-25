@@ -37,7 +37,7 @@ Before starting the pipeline setup, your EC2 instance must be ready.
         User=tomcat
         Group=tomcat
 
-        Environment=JAVA_HOME=/usr/lib/jvm/java-1.21.0-openjdk-amd64
+        Environment="JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64"
         Environment=CATALINA_PID=/opt/tomcat/tomcat.pid
         Environment=CATALINA_HOME=/opt/tomcat
         Environment=CATALINA_BASE=/opt/tomcat
